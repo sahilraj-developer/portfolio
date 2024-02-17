@@ -15,7 +15,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14.x, 16.x, 18.x, 20.x] # Define a matrix of Node.js versions to test against
+        node-version: [20.x] # Define a matrix of Node.js versions to test against
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
