@@ -22,7 +22,7 @@ const About = () => {
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-        Full-stack web developer with 2 year experience in MERN stack, currently engaged in building dynamic web applications using React, Next.js, MongoDB, Express.js and Node.js
+        Full-stack web developer with 2.5 year experience in MERN stack, currently engaged in building dynamic web applications using React, Next.js, MongoDB, Express.js and Node.js
         </p>
       </div>
 
