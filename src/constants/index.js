@@ -175,7 +175,7 @@ export const education = [
         iconBg: "#accbe1",
         date: "July 2022 - 2024",
         points: [
-            "Grade: sem 1:- 8.2 sgpa. sem 2:- 7.2 sgpa . sem3:- 8.2 overall :- 7.89",
+            "Grade: sem 1:- 8.2 sgpa. sem 2:- 7.2 sgpa . sem3:- 8.2 , sem 4:- 7.8, overall :- 7.85",
             "Activities and societies: Writer: Contributor to the university's technical blog. Researcher: Conducted research on the use of machine learning in software engineering. Awards and Honors: Won first prize in the Chandigarh University hackathon and awarded the Outstanding Teaching Assistant award",
             "Participating in Coding Compition ",
         ],

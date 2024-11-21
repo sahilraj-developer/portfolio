@@ -12,7 +12,7 @@ const Education = () => {
         <h3 className='subhead-text'>Education</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
-            I've done my MCA from Chandigarh University and working as a MERN Stack developer :
+            I've done my MCA from Chandigarh University and working as a Full Stack developer(MERN /NEXT) :
           </p>
         </div>
 
