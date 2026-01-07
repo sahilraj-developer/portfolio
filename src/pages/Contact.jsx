@@ -78,6 +78,27 @@ const Contact = () => {
       <div className='flex-1 min-w-[50%] flex flex-col'>
         <h1 className='head-text'>Get in Touch</h1>
 
+        <div className='mt-4 text-slate-600'>
+          <p className='font-medium'>Email: <a href='mailto:sahil27raj@gmail.com' className='text-blue-600'>sahil27raj@gmail.com</a></p>
+          <p className='font-medium'>Mobile: <a href='tel:+916200906520' className='text-blue-600'>+91 6200906520</a></p>
+
+          <div className='mt-4 flex gap-4 items-center'>
+            <a
+              href={'/resume_nineleaps.pdf'}
+              download={'Sahil_Raj_Resume.pdf'}
+              className='btn btn-back-blue inline-flex items-center gap-3'
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" className='w-5 h-5' viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" strokeLinecap="round" strokeLinejoin="round"/>
+                <polyline points="7 10 12 15 17 10" strokeLinecap="round" strokeLinejoin="round"/>
+                <line x1="12" y1="15" x2="12" y2="3" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+              <span className='font-semibold'>Download Resume</span>
+            </a>
+            <a href='/resume_nineleaps.pdf' target='_blank' rel='noopener noreferrer' className='text-sm text-slate-500 underline'>Open in new tab</a>
+          </div>
+        </div>
+
         <form
           ref={formRef}
           onSubmit={handleSubmit}

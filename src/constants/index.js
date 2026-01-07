@@ -23,7 +23,12 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    java,
+    spring,
+    aws,
+    go,
+    gcp
 } from "../assets/icons";
 
 export const skills = [
@@ -96,6 +101,31 @@ export const skills = [
         name: "Redux",
         type: "State Management",
     },
+    {
+        imageUrl: java,
+        name: "Java",
+        type: "Backend",
+    },
+    {
+        imageUrl: spring,
+        name: "Spring Boot",
+        type: "Backend",
+    },
+    {
+        imageUrl: aws,
+        name: "AWS",
+        type: "Cloud",
+    },
+    {
+        imageUrl: go,
+        name: "Go",
+        type: "Backend",
+    },
+    {
+        imageUrl: gcp,
+        name: "GCP",
+        type: "Cloud",
+    },
     // {
     //     imageUrl: sass,
     //     name: "Sass",
@@ -114,6 +144,31 @@ export const skills = [
 ];
 
 export const experiences = [
+
+    {
+        title: "Software Development Engineer 1 (SDE 1)",
+        company_name: "Nineleaps Technology Solutions (Bengaluru, KA)",
+        icon: nodejs,
+        iconBg: "#5eead4",
+        date: "July 2025 - Present",
+        points: [
+            "Developed a scalable microservices architecture using Node.js, Express.js, and Spring Boot, improving API communication and reducing inter-service latency by 35%.",
+            "Integrated secure OAuth 2.0 (Google) authentication and implemented Kafka-based event pipelines for high-throughput real-time streaming with sub-second processing.",
+            "Optimized performance using Redis caching, BullMQ job queues, and Elasticsearch, enhancing responsiveness and search speed by up to 60%.",
+            "Improved MongoDB and PostgreSQL efficiency via indexing optimization and collaborated with DevOps to build Docker-based CI/CD pipelines, cutting deployment time from days to hours.",
+        ],
+    },
+    {
+        title: "Full Stack Developer",
+        company_name: "O2N Enterprises (Ranchi, JH)",
+        icon: car,
+        iconBg: "#93c5fd",
+        date: "October 2024 - June 2025",
+        points: [
+            "Built a GPS-enabled vehicle tracking platform using TypeScript, Node.js, and Spring Boot, delivering real-time tracking accuracy with sub-meter precision.",
+            "Integrated Firebase authentication and automated onboarding via Mailtrap, reducing manual effort by 70% and developing optimized RESTful and GraphQL APIs for third-party integrations.",
+        ],
+    },
     {
         title: "MERN Stack Developer",
         company_name: "Klizos Solution PVT",
@@ -151,19 +206,7 @@ export const experiences = [
             "Implementing responsive design and ensuring cross-browser compatibility.",
         ],
     },
-    // {
-    //     title: "Full stack Developer",
-    //     company_name: "Meta",
-    //     icon: meta,
-    //     iconBg: "#a2d2ff",
-    //     date: "Jan 2023 - Present",
-    //     points: [
-    //         "Developing and maintaining web applications using React.js and other related technologies.",
-    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //         "Implementing responsive design and ensuring cross-browser compatibility.",
-    //         "Participating in code reviews and providing constructive feedback to other developers.",
-    //     ],
-    // },
+
 ];
 
 
@@ -193,30 +236,7 @@ export const education = [
             "Play Football in the college team.",
         ],
     },
-    // {
-    //     title: "Web Design Intern",
-    //     company_name: "Buck Softech Private Limited",
-    //     icon: javascript,
-    //     iconBg: "#b7e4c7",
-    //     date: "Feb 2022 - Mar 2022",
-    //     points: [
-    //         "Developing and maintaining web applications using Html, Css, Javascript, React.js, and other related technologies.",
-    //         "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     ],
-    // },
-    // {
-    //     title: "Full stack Developer",
-    //     company_name: "Meta",
-    //     icon: meta,
-    //     iconBg: "#a2d2ff",
-    //     date: "Jan 2023 - Present",
-    //     points: [
-    //         "Developing and maintaining web applications using React.js and other related technologies.",
-    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //         "Implementing responsive design and ensuring cross-browser compatibility.",
-    //         "Participating in code reviews and providing constructive feedback to other developers.",
-    //     ],
-    // },
+  
 ];
 export const socialLinks = [
     {
@@ -242,7 +262,7 @@ export const projects = [
         theme: 'btn-back-red',
         name: 'Chat Application',
         description: 'Developed a Chat application using the MERN stack, in this aaplciation we can chat through the various members that are registered to the application',
-        link: 'https://github.com/sahilraj-developer/node-chat-frontend-',
+        link: 'https://chat-front-azure.vercel.app/login',
     },
     {
         iconUrl: threads,

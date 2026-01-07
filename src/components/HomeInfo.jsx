@@ -10,7 +10,7 @@ const HomeInfo = ({ currentStage }) => {
         <span className='font-semibold mx-2 text-white'>Sahil Raj</span>
         👋
         <br />
-        A Software Engineer from Kolkata,WB
+        A Software Engineer from Bengaluru, KA, India
       </h1>
     );
 
